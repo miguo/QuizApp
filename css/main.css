@@ -1,0 +1,188 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 100%;
+    font: inherit;
+    vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+    display: block;
+}
+body {
+    line-height: 1;
+}
+ol, ul {
+    list-style: none;
+}
+blockquote, q {
+    quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+    content: '';
+    content: none;
+}
+table {
+    border-collapse: collapse;
+    border-spacing: 0;
+}
+
+/* end of Eric Meyer reset code */
+
+/* Home page */
+
+@font-face {
+    font-family: 'league_gothicregular';
+    src: url('../fonts/leaguegothic-regular.eot');
+    src: url('../fonts/leaguegothic-regular.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/leaguegothic-regular.woff') format('woff'),
+         url('../fonts/leaguegothic-regular.ttf') format('truetype'),
+         url('../fonts/leaguegothic-regular.svg#league_gothicregular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+@media (max-width: 768px) {
+    body {
+        margin: 0;
+        padding: 0;
+    }
+}
+
+#myCarousel {
+    background-color: #16a085;;
+}
+
+h1.quiz-name {
+    margin-top: 36px;
+    margin-bottom: 30px;
+    font-family: 'league_gothicregular';
+    font-size: 40px;
+    text-align: center;
+}
+
+p.home {
+    font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
+    line-height: 1.5em;
+    font-size: 22px;
+    text-align: center;
+    width: 700px;
+    margin: auto;
+}
+
+img {
+    height: 280px;
+    display: block;
+    margin: auto;
+    margin-bottom: 30px;
+}
+
+#start-game {
+    display: block;
+    margin: auto;
+    margin-top: 40px;
+    width: 120px;
+    height: 40px;
+    font-size: 18px;
+    font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
+    font-weight: bold;
+    background-color: #ecf0f1;
+    border: 1px solid #ecf0f1;
+    border-radius: 3px;
+}
+
+/* First question */
+
+.quiz-questions {
+    font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
+    font-size: 18px;
+    width: 700px;
+    margin: auto;
+    margin-top: 30px;
+    padding-left: 20px;
+}
+
+/* add CSS for class .feedback below here */
+
+.space {
+    line-height: 1.5em;
+}
+
+li {
+    border-color: #ecf0f1;
+    border-radius: 3px;
+    background-color: #ecf0f1;
+    margin-bottom: 10px;
+    line-height: 2em;
+}
+
+.small-font {
+    font-size: 16px;
+}
+
+input.radio {
+    float: left;
+    margin: 10px;
+}
+
+label {
+    display: block;
+    padding-left: 36px;
+    text-indent: -6px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    padding-right: 5px;
+}
+
+#boys, #starstruck {
+    height: 260px;
+}
+
+.submit-answer {
+    display: inline-block;
+    float: right;
+    margin-right: 80px;
+    margin-top: -50px;
+    width: 120px;
+    height: 40px;
+    font-size: 18px;
+    font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
+    font-weight: bold;
+    background-color: #f1c40f;
+    border: 1px solid #f1c40f;
+    border-radius: 3px;
+}
+
+.scoreText {
+    font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
+    font-size: 20px;
+    color: #ecf0f1;
+    float: left;
+}
+
+
+
+
+
+

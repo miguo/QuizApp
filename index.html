@@ -1,0 +1,286 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<title>Jennifer Lawrence Quotes Quiz</title>
+		<meta charset="UTF-8">
+		<meta name="description" content="How well do you know Hollywood's favorite unfiltered young star?" />
+		<link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
+		<link rel="stylesheet" type="text/css" href="css/main.css">
+		<!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+    	<script src="https://code.jquery.com/jquery.js"></script>
+    	<!-- Include all compiled plugins (below), or include individual files as needed -->
+    	<script src="js/bootstrap.min.js"></script>
+    	<link rel="stylesheet" href="http://code.jquery.com/ui/1.10.3/themes/smoothness/jquery-ui.css">
+    	<script src="js/bootstrap.min.js"></script>
+    	<script src="js/jquery.carousel.fullscreen.js"></script>
+		<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js" type="text/javascript"></script>
+    	<script src="http://ajax.googleapis.com/ajax/libs/jqueryui/1.8.18/jquery-ui.min.js" type="text/javascript"></script>
+		<script src="js/script.js" type="text/javascript"></script>
+	</head>
+	<body>
+		<!-- This is a typical Twitter Bootstrap Carousel -->
+		<!-- Carousel -->
+		<div id="myCarousel" class="carousel slide" data-ride="carousel">
+		<!-- Indicators -->
+		<ol class="carousel-indicators">
+			<li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+			<li data-target="#myCarousel" data-slide-to="1"></li>
+			<li data-target="#myCarousel" data-slide-to="2"></li>
+			<li data-target="#myCarousel" data-slide-to="3"></li>
+			<li data-target="#myCarousel" data-slide-to="4"></li>
+			<li data-target="#myCarousel" data-slide-to="5"></li>
+			<li data-target="#myCarousel" data-slide-to="6"></li>
+			<li data-target="#myCarousel" data-slide-to="7"></li>
+			<li data-target="#myCarousel" data-slide-to="8"></li>
+			<li data-target="#myCarousel" data-slide-to="9"></li>
+			<li data-target="#myCarousel" data-slide-to="10"></li>
+		</ol>
+
+		<!-- Wrapper for slides -->
+		<div class="carousel-inner" id="mainContent">
+			<div class="item active">
+				<div class="container">
+					<div>
+						<h1 class="quiz-name">Jennifer Lawrence Quotes Quiz</h1>
+						<img src="img/jlaw-oscar.jpg" />
+						<p class="lead home">One of the many things we all love about Oscar-winner Jennifer Lawrence is that she doesn't have a filter, which makes for some pretty awesome quotes. Test your J-Law knowledge by guessing which one is the real Jennifer Lawrence quote.</p>
+						<a href="#myCarousel" class="btn btn-default" id="start-game" data-slide="next">Start Quiz</a>
+					</div>
+				</div>
+			</div>
+
+			<div class="item">
+				<div class="container">
+					<div>
+						<h1 class="quiz-name">Jennifer Lawrence Quotes Quiz</h1>
+						<img src="img/on-exercise.jpg" />
+						<p class="home feedback">On exercise:</p>
+						<div>
+							<ul class="quiz-questions">
+								<li class="space"><input type="radio" class="radio" name="radio-buttons" value="0" id="ex-one"/>
+									<label for="ex-one">"I hate saying, ‘I like exercising’ - I don’t think people actually enjoy exercising.”</label></li>
+								<li class="space"><input type="radio" class="radio" name="radio-buttons" value="1" id="ex-two"/>
+									<label for="ex-two">“I hate saying, ‘I like exercising’ - I want to punch people who say that.”</label></li>
+								<li class="space"><input type="radio" class="radio" name="radio-buttons" value="0" id="ex-three"/>
+								<label for="ex-three">“I hate saying, ‘I like exercising’ - I do love fries, though.”</label></li>
+							</ul>
+						<a href="#myCarousel" class="btn btn-default submit-answer">Submit</a>
+						</div>
+					<p class="scoreText">Score: <span class="scoreCount">0</span> out of 10 correct</p>
+					</div>
+				</div>
+			</div>
+
+			<div class="item">
+				<div class="container">
+					<div>
+						<h1 class="quiz-name">Jennifer Lawrence Quotes Quiz</h1>
+						<img src="img/on-cough.jpg" />
+						<p class="home feedback">On a crazy cough while on The Late Show With David Letterman:</p>
+						<div>
+							<ul class="quiz-questions">
+								<li class="space"><input type="radio" class="radio" name="radio-buttons" value="1" id="cough-one"/>
+									<label for="cough-one">“Sorry! That was phlegm. That was so powerful. I’m like a dragon!”</label></li>
+								<li class="space"><input type="radio" class="radio" name="radio-buttons" value="0" id="cough-two"/>
+									<label for="cough-two">“Sorry! That was phlegm. I didn’t get any on you, did I?”</label></li>
+								<li class="space"><input type="radio" class="radio" name="radio-buttons" value="0" id="cough-three"/>
+								<label for="cough-three">“Sorry! That was phlegm. A whole lot of it. I impress myself with how much <br>phlegm I can make.”</label></li>
+							</ul>
+						<a href="#myCarousel" class="btn btn-default submit-answer">Submit</a>
+						</div>
+					<p class="scoreText">Score: <span class="scoreCount">0</span> out of 10 correct</p>
+					</div>
+				</div>
+			</div>
+
+			<div class="item">
+				<div class="container">
+					<div>
+						<h1 class="quiz-name">Jennifer Lawrence Quotes Quiz</h1>
+						<img src="img/on-farts.jpg" id="boys" />
+						<p class="home feedback">On being one of the boys:</p>
+						<div>
+							<ul class="quiz-questions small-font">
+								<li class="space"><input type="radio" class="radio" name="radio-buttons" value="1" id="boys-one"/>
+									<label for="boys-one">“As soon as somebody farts around me, I think it’s hilarious. This is something my brothers did that now the boys at work are obsessed with. You cup it, and then you throw it in someone’s face and say, ‘Take a bite out of THAT cheeseburger!’”</label></li>
+								<li class="space"><input type="radio" class="radio" name="radio-buttons" value="0" id="boys-two"/>
+									<label for="boys-two">“As soon as somebody farts around me, I think it’s hilarious. This is something my brothers did that now the boys at work are obsessed with. You cup it, and then you throw it in someone’s face and say, ‘How’s THIS for taste?’”</label></li>
+								<li class="space"><input type="radio" class="radio" name="radio-buttons" value="0" id="boys-three"/>
+								<label for="boys-three">“As soon as somebody farts around me, I think it’s hilarious. This is something my brothers did that now the boys at work are obsessed with. You cup it, and then you throw it in someone’s face and say, ‘Hey, I think someone just farted!’”</label></li>
+							</ul>
+						<a href="#myCarousel" class="btn btn-default submit-answer">Submit</a>
+						</div>
+					<p class="scoreText">Score: <span class="scoreCount">0</span> out of 10 correct</p>
+					</div>
+				</div>
+			</div>
+
+			<div class="item">
+				<div class="container">
+					<div>
+						<h1 class="quiz-name">Jennifer Lawrence Quotes Quiz</h1>
+						<img src="img/on-bowl.jpg" />
+						<p class="home feedback">On a bowl of fan questions:</p>
+						<div>
+							<ul class="quiz-questions">
+								<li class="space"><input type="radio" class="radio" name="radio-buttons" value="0" id="bowl-one"/>
+									<label for="bowl-one">“Is this a real goldfish bowl? Ooh you know what I could go for right now? Goldfish crackers.”</label></li>
+								<li class="space"><input type="radio" class="radio" name="radio-buttons" value="0" id="bowl-two"/>
+									<label for="bowl-two">“That’s all the questions they have for me? I’m an Oscar-winning actress!”</label></li>
+								<li class="space"><input type="radio" class="radio" name="radio-buttons" value="1" id="bowl-three"/>
+								<label for="bowl-three">“I thought it was gonna be food. It’s just…words.”</label></li>
+							</ul>
+						<a href="#myCarousel" class="btn btn-default submit-answer">Submit</a>
+						</div>
+					<p class="scoreText">Score: <span class="scoreCount">0</span> out of 10 correct</p>
+					</div>
+				</div>
+			</div>
+
+			<div class="item">
+				<div class="container">
+					<div>
+						<h1 class="quiz-name">Jennifer Lawrence Quotes Quiz</h1>
+						<img src="img/on-rash.jpg" />
+						<p class="home feedback">On Josh Hutcherson’s well-being:</p>
+						<div>
+							<ul class="quiz-questions">
+								<li class="space"><input type="radio" class="radio" name="radio-buttons" value="0" id="rash-one"/>
+									<label for="rash-one">“Did your wart shrink yet?”</label></li>
+								<li class="space"><input type="radio" class="radio" name="radio-buttons" value="1" id="rash-two"/>
+									<label for="rash-two">“Is your rash doing okay?”</label></li>
+								<li class="space"><input type="radio" class="radio" name="radio-buttons" value="0" id="rash-three"/>
+								<label for="rash-three">“Don't worry, adult bacne is a real problem.”</label></li>
+							</ul>
+						<a href="#myCarousel" class="btn btn-default submit-answer">Submit</a>
+						</div>
+					<p class="scoreText">Score: <span class="scoreCount">0</span> out of 10 correct</p>
+					</div>
+				</div>
+			</div>
+
+			<div class="item">
+				<div class="container">
+					<div>
+						<h1 class="quiz-name">Jennifer Lawrence Quotes Quiz</h1>
+						<img src="img/on-eyes.jpg" />
+						<p class="home feedback">On a Victoria’s Secret diss about her sexiest body part:</p>
+						<div>
+							<ul class="quiz-questions">
+								<li class="space"><input type="radio" class="radio" name="radio-buttons" value="0" id="eyes-one"/>
+									<label for="eyes-one">“Smile?! What? From Victoria’s Secret? I thought it was going to be like boobs or butt or something. My smile? I’m mad.”</label></li>
+								<li class="space"><input type="radio" class="radio" name="radio-buttons" value="0" id="eyes-two"/>
+									<label for="eyes-two">“Hair?! What? From Victoria’s Secret? I thought it was going to be like boobs or butt or something. My hair? I’m mad.”</label></li>
+								<li class="space"><input type="radio" class="radio" name="radio-buttons" value="1" id="eyes-three"/>
+								<label for="eyes-three">“Eyes?! What? From Victoria’s Secret? I thought it was going to be like boobs or butt or something. My eyes? I’m mad.”</label></li>
+							</ul>
+						<a href="#myCarousel" class="btn btn-default submit-answer">Submit</a>
+						</div>
+					<p class="scoreText">Score: <span class="scoreCount">0</span> out of 10 correct</p>
+					</div>
+				</div>
+			</div>
+
+			<div class="item">
+				<div class="container">
+					<div>
+						<h1 class="quiz-name">Jennifer Lawrence Quotes Quiz</h1>
+						<img src="img/on-starstruck.jpg" id="starstruck" />
+						<p class="home feedback">On being starstruck:</p>
+						<div>
+							<ul class="quiz-questions small-font">
+								<li class="space"><input type="radio" class="radio" name="radio-buttons" value="0" id="star-one"/>
+									<label for="star-one">“Jay-Z and Beyonce were, like, two feet away from my table. And it changes you. Like, I have heart palpitations. They should be king and queen of America. I would pay taxes to them and not even think twice about it.”</label></li>
+								<li class="space"><input type="radio" class="radio" name="radio-buttons" value="1" id="star-two"/>
+									<label for="star-two">“Brad Pitt and Angelina Jolie were, like, two feet away from my table. And it changes you. Like, I have heart palpitations. They should be king and queen of America. I would pay taxes to them and not even think twice about it.”</label></li>
+								<li class="space"><input type="radio" class="radio" name="radio-buttons" value="0" id="star-three"/>
+								<label for="star-three">“Catherine Zeta-Jones and Michael Douglas were, like, two feet away from my table. And it changes you. Like, I have heart palpitations. They should be king and queen of America. I would pay taxes to them and not even think twice about it.”</label></li>
+							</ul>
+						<a href="#myCarousel" class="btn btn-default submit-answer">Submit</a>
+						</div>
+					<p class="scoreText">Score: <span class="scoreCount">0</span> out of 10 correct</p>
+					</div>
+				</div>
+			</div>
+
+			<div class="item">
+				<div class="container">
+					<div>
+						<h1 class="quiz-name">Jennifer Lawrence Quotes Quiz</h1>
+						<img src="img/on-peeing.jpg" />
+						<p class="home feedback">On her special skill:</p>
+						<div>
+							<ul class="quiz-questions">
+								<li class="space"><input type="radio" class="radio" name="radio-buttons" value="1" id="skill-one"/>
+									<label for="skill-one">“I’m the fastest pee-er ever. I’m famous for it.”</label></li>
+								<li class="space"><input type="radio" class="radio" name="radio-buttons" value="0" id="skill-two"/>
+									<label for="skill-two">“I can eat more burgers in one sitting than anyone I know. I’m famous for it.”</label></li>
+								<li class="space"><input type="radio" class="radio" name="radio-buttons" value="0" id="skill-three"/>
+								<label for="skill-three">“I can switch from really hyper to really serious in a matter of milliseconds. I’m famous for it.”</label></li>
+							</ul>
+						<a href="#myCarousel" class="btn btn-default submit-answer">Submit</a>
+						</div>
+					<p class="scoreText">Score: <span class="scoreCount">0</span> out of 10 correct</p>
+					</div>
+				</div>
+			</div>
+
+			<div class="item">
+				<div class="container">
+					<div>
+						<h1 class="quiz-name">Jennifer Lawrence Quotes Quiz</h1>
+						<img src="img/on-dance.jpg" />
+						<p class="home feedback">On getting down on the dance floor:</p>
+						<div>
+							<ul class="quiz-questions">
+								<li class="space"><input type="radio" class="radio" name="radio-buttons" value="0" id="dance-one"/>
+									<label for="dance-one">“I’m a horrible dancer! I’m like a dad at prom. I look like a minion on speed.”</label></li>
+								<li class="space"><input type="radio" class="radio" name="radio-buttons" value="1" id="dance-two"/>
+									<label for="dance-two">“I’m a horrible dancer! I’m like a dad at prom. I look like Gumby getting electrocuted.”</label></li>
+								<li class="space"><input type="radio" class="radio" name="radio-buttons" value="0" id="dance-three"/>
+								<label for="dance-three">“I’m a horrible dancer! I’m like a dad at prom. I look like a chihuahua trying to outrun volcanic lava.”</label></li>
+							</ul>
+						<a href="#myCarousel" class="btn btn-default submit-answer">Submit</a>
+						</div>
+					<p class="scoreText">Score: <span class="scoreCount">0</span> out of 10 correct</p>
+					</div>
+				</div>
+			</div>
+
+			<div class="item">
+				<div class="container">
+					<div>
+						<h1 class="quiz-name">Jennifer Lawrence Quotes Quiz</h1>
+						<img src="img/on-purse.jpg" />
+						<p class="home feedback">On the contents of her purse at the Oscars:</p>
+						<div>
+							<ul class="quiz-questions">
+								<li class="space"><input type="radio" class="radio" name="radio-buttons" value="0" id="purse-one"/>
+									<label for="purse-one">“Yogurt-covered pretzels, my phone, a pen, a hairtie.”</label></li>
+								<li class="space"><input type="radio" class="radio" name="radio-buttons" value="0" id="purse-two"/>
+									<label for="purse-two">“Tampons, my phone, gum, a pack of Skittles.”</label></li>
+								<li class="space"><input type="radio" class="radio" name="radio-buttons" value="1" id="purse-three"/>
+								<label for="purse-three">“Candy, almonds, my phone, a Baby Ruth, Laffy Taffy.”</label></li>
+							</ul>
+						<a href="#myCarousel" class="btn btn-default submit-answer">Submit</a>
+						</div>
+					<p class="scoreText">Score: <span class="scoreCount">0</span> out of 10 correct</p>
+					</div>
+				</div>
+			</div>
+
+
+		</div>
+
+		<!-- Controls -->
+		<a class="left carousel-control" href="#myCarousel" data-slide="prev">
+			<span class="glyphicon glyphicon-chevron-left"></span>
+		</a>
+		<a class="right carousel-control" href="#myCarousel" data-slide="next">
+			<span class="glyphicon glyphicon-chevron-right"></span>
+		</a>
+		</div>
+	</body>
+
+
+</html>
