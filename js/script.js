@@ -14,7 +14,7 @@ $(document).ready(function() {
 			$(list).css("background-color", "#2ecc71");
 			$(button).attr('disabled', true);
 			console.log("You got it!");
-			$scoreCount++
+			scoreCount++
 		}
 
 		else if (valGuess == 0) {
@@ -30,20 +30,10 @@ $(document).ready(function() {
 		}
 
 		var countText = "Score: <span class='scoreCount'>" + scoreCount + "</span> out of 10 correct";
-		$(".scoreText").html(countText);
-		//$('.scoreCount').text(scoreCount);
+		$("p.scoreText").html(countText);
 
 
 	});
-
-	function getRadioValue() {
-    	for (var i = 0; i < document.getElementsByName('radio-buttons').length; i++) {
-    		if (document.getElementsByName('radio-buttons')[i].checked) {
-    			return document.getElementsByName('radio-buttons')[i].value;
-    		}
-    	}	
-	}
-
 
 
 
