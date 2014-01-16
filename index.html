@@ -20,7 +20,7 @@
 	<body>
 		<!-- This is a typical Twitter Bootstrap Carousel -->
 		<!-- Carousel -->
-		<div id="myCarousel" class="carousel slide" data-ride="carousel">
+		<div id="myCarousel" class="carousel slide" data-interval="false">
 		<!-- Indicators -->
 		<ol class="carousel-indicators">
 			<li data-target="#myCarousel" data-slide-to="0" class="active"></li>
@@ -34,13 +34,14 @@
 			<li data-target="#myCarousel" data-slide-to="8"></li>
 			<li data-target="#myCarousel" data-slide-to="9"></li>
 			<li data-target="#myCarousel" data-slide-to="10"></li>
+			<li data-target="#myCarousel" data-slide-to="11"></li>
 		</ol>
 
 		<!-- Wrapper for slides -->
 		<div class="carousel-inner" id="mainContent">
 			<div class="item active">
 				<div class="container">
-					<div>
+					<div id="home-slide">
 						<h1 class="quiz-name">Jennifer Lawrence Quotes Quiz</h1>
 						<img src="img/jlaw-oscar.jpg" />
 						<p class="lead home">One of the many things we all love about Oscar-winner Jennifer Lawrence is that she doesn't have a filter, which makes for some pretty awesome quotes. Test your J-Law knowledge by guessing which one is the real Jennifer Lawrence quote.</p>
@@ -68,7 +69,6 @@
 						</div>
 					</div>
 				</div>
-			<p class="scoreText">Score: <span class="scoreCount">0</span> out of 10 correct</p>
 			</div>
 
 			<div class="item">
@@ -90,7 +90,6 @@
 						</div>
 					</div>
 				</div>
-			<p class="scoreText">Score: <span class="scoreCount">0</span> out of 10 correct</p>
 			</div>
 
 			<div class="item">
@@ -112,7 +111,6 @@
 						</div>
 					</div>
 				</div>
-			<p class="scoreText">Score: <span class="scoreCount">0</span> out of 10 correct</p>
 			</div>
 
 			<div class="item">
@@ -134,7 +132,6 @@
 						</div>
 					</div>
 				</div>
-			<p class="scoreText">Score: <span class="scoreCount">0</span> out of 10 correct</p>
 			</div>
 
 
@@ -155,7 +152,6 @@
 							</ul>
 						<a href="#myCarousel" class="btn btn-default submit-answer">Submit</a>
 						</div>
-					<p class="scoreText">Score: <span class="scoreCount">0</span> out of 10 correct</p>
 					</div>
 				</div>
 			</div>
@@ -177,7 +173,6 @@
 							</ul>
 						<a href="#myCarousel" class="btn btn-default submit-answer">Submit</a>
 						</div>
-					<p class="scoreText">Score: <span class="scoreCount">0</span> out of 10 correct</p>
 					</div>
 				</div>
 			</div>
@@ -199,7 +194,6 @@
 							</ul>
 						<a href="#myCarousel" class="btn btn-default submit-answer">Submit</a>
 						</div>
-					<p class="scoreText">Score: <span class="scoreCount">0</span> out of 10 correct</p>
 					</div>
 				</div>
 			</div>
@@ -221,7 +215,6 @@
 							</ul>
 						<a href="#myCarousel" class="btn btn-default submit-answer">Submit</a>
 						</div>
-					<p class="scoreText">Score: <span class="scoreCount">0</span> out of 10 correct</p>
 					</div>
 				</div>
 			</div>
@@ -243,7 +236,6 @@
 							</ul>
 						<a href="#myCarousel" class="btn btn-default submit-answer">Submit</a>
 						</div>
-					<p class="scoreText">Score: <span class="scoreCount">0</span> out of 10 correct</p>
 					</div>
 				</div>
 			</div>
@@ -265,14 +257,23 @@
 							</ul>
 						<a href="#myCarousel" class="btn btn-default submit-answer">Submit</a>
 						</div>
-					<p class="scoreText">Score: <span class="scoreCount">0</span> out of 10 correct</p>
 					</div>
 				</div>
 			</div>
 
+			<div class="item">
+				<div class="container">
+					<div id="final-score">
+						<h1 class="quiz-name">Jennifer Lawrence Quotes Quiz</h1>
+						<img src="img/jlaw-score.gif" />
+						<p class="home feedback final-score">Congratulations! You got a high score of <span class="scoreCount">10</span> out of 10 correct!</p>
+					</div>
+				</div>
+			</div>
 
 		</div>
 		
+		<p class="scoreText">Score: <span class="scoreCount">0</span> out of 10 correct</p>
 		<!-- Controls -->
 		<a class="left carousel-control" href="#myCarousel" data-slide="prev">
 			<span class="glyphicon glyphicon-chevron-left"></span>
