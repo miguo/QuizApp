@@ -98,7 +98,7 @@ img {
     margin-bottom: 30px;
 }
 
-#start-game {
+.white-button {
     display: block;
     margin: auto;
     margin-top: 40px;
@@ -122,8 +122,6 @@ img {
     margin-top: 30px;
     padding-left: 20px;
 }
-
-/* add CSS for class .feedback below here */
 
 .space {
     line-height: 1.5em;
@@ -179,12 +177,20 @@ label {
     font-size: 20px;
     color: #ecf0f1;
     float: left;
-    margin-top: 706px;
-    margin-left: 130px;
+    margin-top: -30px;
 }
 
+.final-feedback {
+    color: #ecf0f1;
+    margin-top: 50px;
+    font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
+    font-size: 20px;
+    text-align: center;
+}
 
-
+#wide-button {
+    width: 150px;
+}
 
 
 
