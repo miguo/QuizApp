@@ -22,7 +22,6 @@ $(document).ready(function() {
 			$(this).text('Incorrect');
 			$(list).css("background-color", "#e74c3c");
 			$(button).attr('disabled', true);
-			$('.scoreCount').text(getRadioValue());
 			console.log("Incorrect");
 		}
 
